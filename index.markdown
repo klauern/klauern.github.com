@@ -2,6 +2,7 @@
 layout: default
 title: Nick Klauer
 ---
+
 Hello
 =====
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sapien est,
@@ -9,10 +10,20 @@ auctor a ultrices nec, malesuada et risus. Donec dignissim, sem a cursus
 laoreet, elit lorem placerat lectus, quis fermentum neque eros ut odio. Duis
 pulvinar vehicula rhoncus. Quisque vehicula dignissim iaculis. Nullam eu arcu
 elit, sed euismod odio.
-  * Ut in tempor quam. 
-  * Maecenas consequat mollis turpis, at auctor nunc viverra non. 
-  * Aenean quis sapien ligula. Donec magna ante, scelerisque vel dapibus non, 
-    cursus vel mi. Vestibulum aliquam faucibus lacus.
+
+* Ut in tempor quam. 
+* Maecenas consequat mollis turpis, at auctor nunc viverra non. 
+* Aenean quis sapien ligula. Donec magna ante, scelerisque vel dapibus non, 
+  cursus vel mi. Vestibulum aliquam faucibus lacus.
+
+1. something
+   * a nested option
+     * another nesting
+2. another thing
+   1. Another number
+   2. yet another
+3. wierd one there
+
 
 Duis aliquet molestie enim, a pretium felis blandit ac. Pellentesque pretium,
 mi quis sagittis imperdiet, quam nulla semper nisi, vitae gravida enim massa et
