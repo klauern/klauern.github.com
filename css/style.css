@@ -87,9 +87,17 @@ a:hover { color: #036; }
 */
 
 
-
-
-
+h1, h2, h3 {
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+h1 { font-size: 300%;
+}
+h2 { font-size: 200%;
+}
+body { margin: 10px;
+}
 
 
 
