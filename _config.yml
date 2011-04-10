@@ -5,5 +5,4 @@ exclude:
   - config.rb
   - demo
   - test
-  - src
 

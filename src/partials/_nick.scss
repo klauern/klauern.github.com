@@ -1,7 +1,17 @@
 /*?   Styles by Nick Klauer
  */
 
+@import "blueprint/debug";
 
 h1, h2, h3 {
   text-shadow: 1px 1px 1px #ccc;
 }
+
+
+
+@import "blueprint";
+#nav {
+  @include container;
+}
+
+  
