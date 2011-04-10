@@ -1,2 +1,6 @@
+.svn/
+publish/
+build/buildinfo.properties
+.DS_Store
 _site
-*.un~
+.sass-cache

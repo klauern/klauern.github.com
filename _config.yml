@@ -1,4 +1,9 @@
 exclude:
+  - build
   - Rakefile
-  - README
+  - README.markdown
   - config.rb
+  - demo
+  - test
+  - src
+
