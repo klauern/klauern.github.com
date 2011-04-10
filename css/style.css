@@ -935,7 +935,7 @@ These styles redefine the way the elements look. It should be applied after the 
 */
 /* line 4, ../src/partials/_redefine.scss */
 body {
-  font-family: "Georgia", serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 13px;
   *font-size: small;
   line-height: 1.3em;
@@ -943,7 +943,7 @@ body {
 
 /* line 10, ../src/partials/_redefine.scss */
 select, input, textarea, button {
-  font-family: "Georgia", serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 99%;
 }
 
@@ -965,6 +965,7 @@ body, select, input, textarea {
 /* line 21, ../src/partials/_redefine.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Verdana", "DevaVu Sans", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: bold;
   letter-spacing: 0.01em;
 }
