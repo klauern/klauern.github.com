@@ -16,13 +16,10 @@ header {
 #nav {
   @include container;
   li {
-    float: left;
-    list-style-type: none;
     font-size: 150%;
-    a {
-      display: block;
-      width: 120px;
-    }
+    margin-left: 0px;
+    padding: 0;
+    list-style-type: none;
   }
 }
 
