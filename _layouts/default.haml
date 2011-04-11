@@ -19,25 +19,28 @@
       :href => "css/handheld.css?v=2" }
     %script{ :src => "js/libs/modernizr-1.7.min.js" }
   %body
-    #container.showgrid
+    #container
       %header
         #sidebar
           %h1 This is My Site
           %p And here I am.
           #nav
             %ul
-              %li.span-6
+              %li
                 %a{ :href => "http://nickklauer.info" }
                   Home
-              %li.span-6
+              %li
                 %a{ :href => "http://blog.nickklauer.info" }
                   Blog
-              %li.span-6
+              %li
                 %a{:href => "http://github.com/klauern" }
                   GitHub
               %li
                 %a{:href => "http://www.linkedin.com/in/nickklauer" }
                   LinkedIn
+              %li.last
+                %a{:href => "/about.html" }
+                  About Me
       #main.container{:role => "main" }
         {{ content }}
       %footer
