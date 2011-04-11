@@ -1,27 +1,27 @@
 /*
 These styles redefine the way the elements look. It should be applied after the general reset.
-*/
+ */
 body {
-	@include ff-text;
-	font-size:13px;
-	*font-size:small;
-	line-height: 1.3em;
+  @include ff-text;
+  font-size:13px;
+  *font-size:small;
+  line-height: 1.3em;
 } 
 select, input, textarea, button {
-	@include ff-text;
-	font-size:99%;
+  @include ff-text;
+  font-size:99%;
 }
 pre, code, kbd, samp {
-	@include ff-mono;
+  @include ff-mono;
 }
 blockquote{
-	@include ff-decorative;
+  @include ff-decorative;
 }
 body, select, input, textarea {   color: #444; }
 h1,h2,h3,h4,h5,h6 {
-	@include ff-heading;
-	font-weight: bold;
-	letter-spacing: 0.01em;
+  @include ff-heading;
+  font-weight: bold;
+  letter-spacing: 0.01em;
 }
 html { overflow-y: scroll; }
 

@@ -9,7 +9,8 @@
   <!--<![endif]-->
   <head>
     <meta charset='UTF-8' />
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>%title Nick Klauer</meta>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
+    <title>Nick Klauer</title>
     <meta content='Nick Klauer' name='author' />
     <meta content='width-device-width, initial-scale=1.0' name='viewport' />
     <link href='/favicon.ico' rel='shortcut icon' />
@@ -19,33 +20,38 @@
     <script src='js/libs/modernizr-1.7.min.js'></script>
   </head>
   <body>
-    <div class='container showgrid' id='container'>
-      <header></header>
-      <div id='main' role='main'>
+    <div class='showgrid' id='container'>
+      <header>
         <div id='sidebar'>
-          <ul>
-            <li>
-              <a href='http://nickklauer.info'>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href='http://blog.nickklauer.info'>
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href='http://github.com/klauern'>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href='http://www.linkedin.com/in/nickklauer'>
-                LinkedIn
-              </a>
-            </li>
-          </ul>
+          <h1>This is My Site</h1>
+          <p>And here I am.</p>
+          <div id='nav'>
+            <ul>
+              <li>
+                <a href='http://nickklauer.info'>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href='http://blog.nickklauer.info'>
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href='http://github.com/klauern'>
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a href='http://www.linkedin.com/in/nickklauer'>
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </header>
+      <div class='container' id='main' role='main'>
         {{ content }}
       </div>
       <footer></footer>

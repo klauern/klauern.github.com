@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------
 
-   grid.css
-   * Sets up an easy-to-use grid of 24 columns.
+grid.css
+ * Sets up an easy-to-use grid of 24 columns.
 
-   By default, the grid is 950px wide, with 24 columns
-   spanning 30px, and a 10px margin between columns.
+ By default, the grid is 950px wide, with 24 columns
+ spanning 30px, and a 10px margin between columns.
 
-   If you need fewer or more columns, namespaces or semantic
-   element names, use the compressor script (lib/compress.rb)
+ If you need fewer or more columns, namespaces or semantic
+ element names, use the compressor script (lib/compress.rb)
 
--------------------------------------------------------------- */
+ -------------------------------------------------------------- */
 
 /* A container should group all your columns. */
 .container {
@@ -19,7 +19,7 @@
 
 /* Use this class on any .span / container to see the grid. */
 .showgrid {
-  background: url(img/grid.png);
+  background: url(grid.png);
 }
 
 
@@ -261,8 +261,8 @@ hr.space {
 
 
 /* Clearing floats without extra markup
-   Based on How To Clear Floats Without Structural Markup by PiE
-   [http://www.positioniseverything.net/easyclearing.html] */
+Based on How To Clear Floats Without Structural Markup by PiE
+[http://www.positioniseverything.net/easyclearing.html] */
 
 .clearfix:after, .container:after {
   content: "\0020";
@@ -275,6 +275,6 @@ hr.space {
 .clearfix, .container {display: block;}
 
 /* Regular clearing
-   apply to column that should drop below previous ones. */
+apply to column that should drop below previous ones. */
 
 .clear { clear:both; }

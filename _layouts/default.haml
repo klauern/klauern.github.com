@@ -8,7 +8,8 @@
   <!--<![endif]-->
   %head
     %meta{ :charset => "UTF-8" }
-    %meta{ 'http-equiv' => "X-UA-Compatible", :content => "IE=edge,chrome=1" }    %title Nick Klauer
+    %meta{ 'http-equiv' => "X-UA-Compatible", :content => "IE=edge,chrome=1" }
+    %title Nick Klauer
     %meta{ :name => 'author', :content => "Nick Klauer" }
     %meta{ :name => 'viewport', :content => "width-device-width, initial-scale=1.0" }
     %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
@@ -18,23 +19,26 @@
       :href => "css/handheld.css?v=2" }
     %script{ :src => "js/libs/modernizr-1.7.min.js" }
   %body
-    #container.container.showgrid
+    #container.showgrid
       %header
-      #main{:role => "main" }
         #sidebar
-          %ul
-            %li
-              %a{ :href => "http://nickklauer.info" }
-                Home
-            %li 
-              %a{ :href => "http://blog.nickklauer.info" }
-                Blog
-            %li
-              %a{:href => "http://github.com/klauern" }
-                GitHub
-            %li
-              %a{:href => "http://www.linkedin.com/in/nickklauer" }
-                LinkedIn
+          %h1 This is My Site
+          %p And here I am.
+          #nav
+            %ul
+              %li
+                %a{ :href => "http://nickklauer.info" }
+                  Home
+              %li 
+                %a{ :href => "http://blog.nickklauer.info" }
+                  Blog
+              %li
+                %a{:href => "http://github.com/klauern" }
+                  GitHub
+              %li
+                %a{:href => "http://www.linkedin.com/in/nickklauer" }
+                  LinkedIn
+      #main.container{:role => "main" }
         {{ content }}
       %footer
     %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" }

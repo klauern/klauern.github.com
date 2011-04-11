@@ -1,6 +1,7 @@
 /*?   Styles by Nick Klauer
  */
 
+@import "blueprint";
 @import "blueprint/debug";
 
 h1, h2, h3 {
@@ -8,10 +9,21 @@ h1, h2, h3 {
 }
 
 
+header {
+  @include container;
+}
 
-@import "blueprint";
 #nav {
   @include container;
+  li {
+    float: left;
+    list-style-type: none;
+    font-size: 150%;
+    a {
+      display: block;
+      width: 120px;
+    }
+  }
 }
 
   
