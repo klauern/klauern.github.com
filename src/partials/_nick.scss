@@ -3,6 +3,7 @@
 
 @import "blueprint";
 @import "blueprint/debug";
+@import "compass/utilities/links/hover-link";
 
 h1, h2, h3 {
   text-shadow: 1px 1px 1px #ccc;
@@ -12,14 +13,22 @@ header {
   @include container;
   text-align: center;
   #nav {
-    li {
-      /*@include showgrid('/img/grid.png');*/
-      @include column(2.25, true);
-      font-size: 2em;
-      margin-left: 0px;
-      padding: 0;
-      list-style-type: none;
-      @include append_bottom(0.5em);
+    ul {
+      li {
+        /*@include showgrid('/img/grid.png');*/
+        @include column(2.25, true);
+        a:hover { 
+          border-bottom: 2px solid #DE2C2C;
+          /*background: #737373; */
+          /*color: #4788CC;*/
+          /*@include border-radius(4px, 4px);*/
+        }
+        font-size: 2em;
+        margin-left: 0px;
+        padding: 0;
+        list-style-type: none;
+        @include append_bottom(0.5em);
+      }
     }
   }
 }
