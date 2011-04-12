@@ -1,36 +1,56 @@
 /*?   Styles by Nick Klauer
  */
-
 @import "blueprint";
 @import "blueprint/debug";
 @import "compass/utilities/links/hover-link";
 
+/*$primary-color: #94BA65;*/
+/*$secondary-color: #2790B0;*/
+$primary-color: #FFFFFF;
+$secondary-color: #FFFFFF;
+$hover-color: #DE2C2C;
+$shadow: #ccc;
+
+
 h1, h2, h3 {
-  text-shadow: 1px 1px 1px #ccc;
+  text-shadow: 1px 1px 4px $shadow;
 }
 
 header {
-  @include container;
-  text-align: center;
-  #nav {
-    ul {
-      li {
-        /*@include showgrid('/img/grid.png');*/
-        @include column(2.25, true);
-        a:hover { 
-          border-bottom: 2px solid #DE2C2C;
-          /*background: #737373; */
-          /*color: #4788CC;*/
-          /*@include border-radius(4px, 4px);*/
+  border: 0px;
+  margin: 0px;
+  background: $primary-color;
+  #sidebar {
+    @include container;
+    text-align: center;
+    #nav {
+      ul {
+        li {
+          /*@include showgrid('/img/grid.png');*/
+          @include column(2.25, true);
+          a:hover { 
+            border-bottom: 2px solid $hover-color;
+            /*background: #737373; */
+            /*color: #4788CC;*/
+            /*@include border-radius(4px, 4px);*/
+          }
+          font-size: 2em;
+          margin-left: 0px;
+          padding: 0;
+          list-style-type: none;
+          @include append_bottom(0.5em);
         }
-        font-size: 2em;
-        margin-left: 0px;
-        padding: 0;
-        list-style-type: none;
-        @include append_bottom(0.5em);
       }
     }
   }
+}
+
+body {
+  background: $secondary-color;
+}
+
+body#container {
+  background: $primary-color;
 }
 
   
