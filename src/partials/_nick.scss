@@ -15,10 +15,22 @@ $shadow: #ccc;
 h1, h2, h3 {
   text-shadow: 1px 1px 4px $shadow;
 }
+#floater {
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  @include column(5, true);
+}
 
-header {
-  border: 0px;
-  margin: 0px;
+#sidebar {
+  left: 50%;
+  clear: both;
+  top: -75px;
+  height: 150px;
+  position: absolute;
+}
+
+#header {
   background: $primary-color;
   #sidebar {
     @include container;
