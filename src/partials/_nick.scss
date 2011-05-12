@@ -30,30 +30,31 @@ h1, h2, h3 {
   position: absolute;
 }
 
+#nav {
+  ul {
+    li {
+      /*@include showgrid('/img/grid.png');*/
+      @include column(2.25, true);
+      a:hover { 
+        border-bottom: 2px solid $hover-color;
+        /*background: #737373; */
+        /*color: #4788CC;*/
+        /*@include border-radius(4px, 4px);*/
+      }
+      font-size: 2em;
+      margin-left: 0px;
+      padding: 0;
+      list-style-type: none;
+      @include append_bottom(0.5em);
+    }
+  }
+}
+
 #header {
   background: $primary-color;
   #sidebar {
     @include container;
     text-align: center;
-    #nav {
-      ul {
-        li {
-          /*@include showgrid('/img/grid.png');*/
-          @include column(2.25, true);
-          a:hover { 
-            border-bottom: 2px solid $hover-color;
-            /*background: #737373; */
-            /*color: #4788CC;*/
-            /*@include border-radius(4px, 4px);*/
-          }
-          font-size: 2em;
-          margin-left: 0px;
-          padding: 0;
-          list-style-type: none;
-          @include append_bottom(0.5em);
-        }
-      }
-    }
   }
 }
 

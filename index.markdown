@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Nick Klauer
+title: "Nick Klauer"
 ---
 
