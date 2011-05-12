@@ -1,12 +1,11 @@
 My Site
 =======
 
-This is a horrid mess of some erally awesome frameworks.  Don't expect magic
-from this, but if you're interested in cobbling together something this weird,
-feel free:
+This is a collection of some really awesome frameworks.  I like the way this works, so
+if you're interested in cobbling together something similar, feel free:
 
 * [CodeKickoff.com][1] - Awesome way to meld together a bunch of disparate frameworks
-into one really awesome one
+  into one really awesome one
 * [Compass](http://www.compass-style.org) - Melding of SASS and Blueprint
   basically
 * [Sass](http://www.sass-lang.org) - Awesome stylesheet management, allowing
