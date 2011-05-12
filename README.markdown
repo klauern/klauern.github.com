@@ -7,11 +7,11 @@ feel free:
 
 * [CodeKickoff.com][1] - Awesome way to meld together a bunch of disparate frameworks
 into one really awesome one
-* [Compass][http://www.compass-style.org] - Melding of SASS and Blueprint
+* [Compass](http://www.compass-style.org) - Melding of SASS and Blueprint
   basically
-* [Sass][http://www.sass-lang.org] - Awesome stylesheet management, allowing
+* [Sass](http://www.sass-lang.org) - Awesome stylesheet management, allowing
   reuse of styles and mixins and glorious things
-* [IconFinder][http:www.iconfinder.com] - I'm incapable of making beautiful
+* [IconFinder](http:www.iconfinder.com) - I'm incapable of making beautiful
   things in pictures.  These guys are great
 * [Diagonia Icon Set][2] - I just like them, so if I'm not using them now,
   I will be.
@@ -19,7 +19,7 @@ into one really awesome one
 There's also a [ Rakefile ][4] that I borrowed from [SeanTAllen][3].  Neat stuff,
 simple, but worth it.  Kudos.
 
-[1]; http://codekickoff.com/misc/how-does-it-work/
+[1]: http://codekickoff.com/misc/how-does-it-work/
 [2]: http://p.yusukekamiyamane.com/
 [3]: http://www.monkeysnatchbanana.com
 [4]: https://github.com/SeanTAllen/MonkeySnatchBanana.com/blob/master/Rakefile
