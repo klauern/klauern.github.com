@@ -19,7 +19,7 @@ h1, h2, h3 {
   position: absolute;
   top: 50%;
   height: 1px;
-  @include column(5, true);
+  @include column(8, true);
 }
 
 #sidebar {

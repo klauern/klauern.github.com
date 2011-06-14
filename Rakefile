@@ -39,10 +39,3 @@ end
 desc 'Compile site'
 task :compile => [ 'jekyll:compile' ] do
 end
-
-desc 'Publish to monkeysnatchbanana.com'
-task :publish do
-  system "rake compile"
-  system "rsync -v -r -c --delete _site/ msb:/home/public/"
-  system "rake clean"
-end
