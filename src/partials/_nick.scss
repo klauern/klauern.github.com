@@ -1,11 +1,8 @@
-/*?   Styles by Nick Klauer
- */
+/* Styles by Nick Klauer */
 @import "blueprint";
 @import "blueprint/debug";
 @import "compass/utilities/links/hover-link";
 
-/*$primary-color: #94BA65;*/
-/*$secondary-color: #2790B0;*/
 $primary-color: #FFFFFF;
 $secondary-color: #FFFFFF;
 $hover-color: #DE2C2C;
@@ -15,6 +12,7 @@ $shadow: #ccc;
 h1, h2, h3 {
   text-shadow: 1px 1px 4px $shadow;
 }
+
 #floater {
   position: absolute;
   top: 50%;
@@ -23,7 +21,7 @@ h1, h2, h3 {
 }
 
 #sidebar {
-  left: 50%;
+  left: 33%;
   clear: both;
   top: -75px;
   height: 150px;
