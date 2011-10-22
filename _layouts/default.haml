@@ -19,29 +19,30 @@
       :href => "css/handheld.css?v=2" }
     %script{ :src => "js/libs/modernizr-1.7.min.js" }
   %body
-    #floater
-      #header
-        #sidebar
-          #banner
-            %h1 This is My Site
-            %p And here I am.
-          #nav
-            %ul
-              %li
-                %a{ :href => "http://nickklauer.info" }
-                  Home
-              %li
-                %a{ :href => "http://blog.nickklauer.info" }
-                  Blog
-              %li
-                %a{ :href => "http://github.com/klauern" }
-                  GitHub
-              %li
-                %a{ :href => "http://www.linkedin.com/in/nickklauer" }
-                  LinkedIn
-              %li.last
-                %a{ :href => "/about.html" }
-                  About Me
+    .container
+      #floater
+        #header
+          #sidebar
+            #banner
+              %h1 This is My Site
+              %p And here I am.
+            #nav
+              %ul
+                %li
+                  %a{ :href => "http://nickklauer.info" }
+                    Home
+                %li
+                  %a{ :href => "http://blog.nickklauer.info" }
+                    Blog
+                %li
+                  %a{ :href => "http://github.com/klauern" }
+                    GitHub
+                %li
+                  %a{ :href => "http://www.linkedin.com/in/nickklauer" }
+                    LinkedIn
+                %li.last
+                  %a{ :href => "https://plus.google.com/115836519062177861439/about" }
+                    About Me
     #main.container{ :role => "main" }
       {{ content }}
     %footer
