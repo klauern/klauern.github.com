@@ -11,3 +11,4 @@ javascripts_dir = "js"
 
 # Uncomment the following line to get a compacted css file 
 output_style = :compressed
+
